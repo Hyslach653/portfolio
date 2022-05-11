@@ -5,7 +5,7 @@ import NavBar from "./components/NavBar.js";
 export default function App() {
   return (
     <BrowserRouter>
-      {/* <NavBar /> */}
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
