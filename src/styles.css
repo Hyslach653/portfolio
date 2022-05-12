@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: all 150ms linear;
+}
+
+a:hover {
+  /* check screenshot for cool underlining effect */
+  /* text-decoration: underline; */
+  color: #1f7a8c
+}
